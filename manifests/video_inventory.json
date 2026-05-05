@@ -1,0 +1,73 @@
+{
+    "folder": "20260214_183743_542000_twitch_skipnho",
+    "generated_at": "2026-05-05T04:52:09+00:00",
+    "source_video": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 60,
+        "duration_seconds": 21377.432333,
+        "size_bytes": 17101580740,
+        "video_codec": "h264",
+        "audio_codec": "aac",
+        "bitrate_kbps": 6400,
+        "format_name": "mpegts"
+    },
+    "video_output": {
+        "id": 61,
+        "uuid": null,
+        "format": "ts",
+        "totals": {
+            "size_bytes": 17101580740,
+            "duration_seconds": 21377.432333
+        },
+        "summary": {
+            "descriptors_count": 1,
+            "valid_segments_count": 1,
+            "invalid_segments_count": 0,
+            "partial": false
+        }
+    },
+    "segments": [
+        {
+            "attempt": 1,
+            "attempt_id": 76,
+            "file_name": "seg_0001.ts",
+            "relative_path": "2026_02_14_003446943_twitch_skipnho/seg_0001.ts",
+            "absolute_path": "/var/www/html/recorders/2026_02_14_003446943_twitch_skipnho/seg_0001.ts",
+            "size_bytes": 17101580740,
+            "format": "ts",
+            "duration_seconds": 21377.432333,
+            "validation": {
+                "ffprobe": {
+                    "streams_total": 3,
+                    "format_name": "mpegts",
+                    "duration": 21377.432333,
+                    "size": 17101580740
+                }
+            }
+        }
+    ],
+    "profiles": {
+        "base_quality": "1080p",
+        "base_slug": "1080",
+        "profiles": [
+            {
+                "quality": "1080p",
+                "slug": "1080",
+                "width": 1920,
+                "height": 1080
+            }
+        ]
+    },
+    "contract": {
+        "inputs": {
+            "video_segments_count": 1,
+            "video_output_id": 61,
+            "input_signature": "9c72e966d99ef8b2c15b99e3e9011dd70ad2e97b1049a32e8ddd61b264c1de70"
+        },
+        "validations": {
+            "totals_size_bytes": 17101580740,
+            "totals_duration_seconds": 21377.432333
+        }
+    }
+}
